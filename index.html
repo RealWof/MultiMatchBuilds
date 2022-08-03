@@ -58,9 +58,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/MultiMatchBuilds.loader.js";
       var config = {
-        dataUrl: buildUrl + "/MultiMatchBuilds.data.gz",
-        frameworkUrl: buildUrl + "/MultiMatchBuilds.framework.js.gz",
-        codeUrl: buildUrl + "/MultiMatchBuilds.wasm.gz",
+        dataUrl: buildUrl + "/MultiMatchBuilds.data.unityweb",
+        frameworkUrl: buildUrl + "/MultiMatchBuilds.framework.js.unityweb",
+        codeUrl: buildUrl + "/MultiMatchBuilds.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "StoneWayGames",
         productName: "MultiMatch",
@@ -99,7 +99,7 @@
         canvas.style.height = "600px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/MultiMatchBuilds.jpg.gz') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/MultiMatchBuilds.jpg.unityweb') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
